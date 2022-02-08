@@ -30,7 +30,14 @@ body{
 
 .main-text, .main-text-flavour{
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+}
+.sub-text{
+    margin-top: 14px;
+}
+.learn-more{
+    font-size: 22px;
+    color: gray;        
 }
 
 /*sign up form*/
@@ -142,18 +149,27 @@ a{
     }
     .main{
         width: 100vw;
-    }
+    }    
+}
+
+@media (max-width: 1260px) {
     .top{
         font-size:22px;
-        padding-top: 20px;
+        padding-top: 20%;
         padding-bottom: 50px;
+    }
+    .learn-more{
+        font-size: 14px;
     }
 }
 
-@media (max-height: 800px){
+@media (max-height: 960px){
     .top{
         font-size:22px;
-        padding-top: 20px;
+        padding-top: 20%;
         padding-bottom: 50px;
+    }
+    .learn-more{
+        font-size: 14px;
     }
 }
