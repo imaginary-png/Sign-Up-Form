@@ -145,4 +145,15 @@ a{
     }
     .top{
         font-size:22px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-height: 800px){
+    .top{
+        font-size:22px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
 }
