@@ -10,7 +10,17 @@
 </head>
 
 <body>
-    <div class="sidebar"></div>
+    <div class="sidebar">
+      <!--   <video autoplay muted loop id="catvid">
+            <source src="./imgs/sploot.mp4" type="video/mp4">
+        </video>
+        -->
+        <div class="sidebar-logo">
+            <img class=logo-img src="imgs/logo.png" alt="site logo">
+            <div class=logo-text>blep.</div>
+        </div>
+        <div class=logo-attribution><a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat icons created by Victoruler - Flaticon</a></div>
+    </div>
 
     <div class="main">
         <div class="top">
@@ -19,20 +29,24 @@
             <p class="main-text-flavour">Sign up <em>now</em> to get started.</p>
             <p class="sub-text">You <em>know</em> you want to.</p>
         </div>
-        <div class="form">
-            <title>Let's do this!</title>
-            <form action="" class="sign-up-form">
-                <label for="fname">FIRST NAME</label><input type="text" name="fname" id="fname">
-                <label for="lname">LAST NAME</label><input type="text" name="lname" id="lname">
-                <label for="email">EMAIL</label><input type="email" name="email" id="email">
-                <label for="phone">PHONE NUMBER</label><input type="tel" name="phone" id="phone">
-                <label for="password">PASSWORD</label><input type="password" name="password" id="password">
-                <label for="passwordConfirm">CONFIRM PASSWORD</label><input type="password" name="passwordConfirm" id="passwordConfirm">
+        <div class="form-container">
+            <form action="">
+                <div class="sign-up-form">
+                    <div class=form-title>Let's do this!</div>
+                    <div class="form-input"><label for="fname">FIRST NAME *</label><input type="text" name="fname" id="fname" required></div>
+                    <div class="form-input"><label for="lname">LAST NAME *</label><input type="text" name="lname" id="lname" required></div>
+                    <div class="form-input"><label for="email">EMAIL *</label><input type="email" name="email" id="email" required></div>
+                    <div class="form-input"><label for="phone">PHONE NUMBER</label><input type="tel" name="phone" id="phone"></div>
+                    <div class="form-input"><label for="password">PASSWORD *</label><input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="form-input"> <label for="passwordConfirm">CONFIRM PASSWORD *</label><input type="password"
+                            name="passwordConfirm" id="passwordConfirm" required> 
+                    </div>
+                </div>
+
+                <div class=sign-up-button-container><button type="submit">Create Account</button><div>
             </form>
-        </div>
-        <div class="bottom">
-            <button class="sign-up">Create Account</button>
-            <div class="sign-up-text">Already have an account? <a>Log in</a></div>
+            <div class="sign-up-text">Already have an account? <a href="">Log in</a></div>
         </div>
     </div>
 
