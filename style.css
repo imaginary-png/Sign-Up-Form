@@ -173,3 +173,11 @@ a{
         font-size: 14px;
     }
 }
+
+
+@media (max-height: 1120px){
+    .sign-up-form{
+        padding: 20px 0% 30px 50px; 
+    }
+}
+  
